@@ -74,7 +74,7 @@ public class Driver {
                     ChromeOptions remoteOptions = new ChromeOptions();
                     remoteOptions.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu");
                     try {
-                        driver = new RemoteWebDriver(new URL("http://54.89.147.119:4444/wd/hub"), remoteOptions);
+                        driver = new RemoteWebDriver(new URL("http://3.87.95.129:4444/wd/hub"), remoteOptions);
                     } catch (MalformedURLException e) {
 
                     }
@@ -84,7 +84,7 @@ public class Driver {
                     FirefoxOptions firefoxOptions1 = new FirefoxOptions();
                     firefoxOptions1.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu");
                     try {
-                        driver = new RemoteWebDriver(new URL("http://54.89.147.119:4444/wd/hub"), firefoxOptions1);
+                        driver = new RemoteWebDriver(new URL("http://3.87.95.129:4444/wd/hub"), firefoxOptions1);
                     } catch (MalformedURLException e) {
 
                     }
